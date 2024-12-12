@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    background-color: black;
+    background-image: url(../times/icon-fundo.jpg);
+    background-size: cover;
+    background-repeat:  no-repeat;
+}
+#app{
+    width: fit-content;
+    margin: 52px auto;
+}
+#cards{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.card{
+    padding: 32px 23px;
+    text-align: center;
+    background-color: black;
+    border-bottom: 2px solid #fade3e;
+    border-radius: 3px;
+}
+.card h2{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #fade3e;
+    padding: 8px 16px;
+    border: 1px solid #746615;
+    border-radius: 6px;
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 53px;
+}
+.card h2 span{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card ul{
+}
+.card ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 00px;
+}
+.card ul li + li{
+    padding-top: 24px;
+    border-top: 1px solid #323230;
+}
+.card ul li strong{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.card h2:hover,
+.card ul lu strong:hover,
+.card ul li img:hover{
+    transform: scale;
+}
+.card h2,
+.card ul li strong,
+.card ul li
